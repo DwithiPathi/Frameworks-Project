@@ -47,6 +47,7 @@ public void setName(String name) {
 public void setBreed(String breed) {
 	this.breed = breed;
 }
+// this is the toString method
 @Override
 public String toString() {
 	return "Dog [id=" + id + ", name=" + name + ", breed=" + breed + "]"+"\n"+trainer.toString();
